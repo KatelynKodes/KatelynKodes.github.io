@@ -25,6 +25,8 @@ div{
     background-color: rgb(29, 28, 58);
     border-radius: 20px;
     margin:10px;
+    max-width: 750px;
+    align-self: center;
 }
 
 h2{
@@ -72,4 +74,8 @@ table a {
 
 table{
     padding: 20px;
+}
+
+img {
+    margin: 8px;
 }
