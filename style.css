@@ -1,10 +1,9 @@
 body {
     background-image: linear-gradient(#2c3247,#764e82);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position:center;
     color:antiquewhite;
-    height: 100vh;
 }
 
 h1 {
@@ -12,7 +11,23 @@ h1 {
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 50px;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5
+{
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: #a567a1;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p{
@@ -30,20 +45,11 @@ div{
     align-self: center;
 }
 
-h2{
-    padding: 10px;
-    padding-bottom: 0px;
-    margin: 0px;
-    font-family: monospace;
-}
-
-
 ul{
     list-style-type:none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a567a1;
     
 }
 
@@ -55,6 +61,8 @@ li a{
     color: antiquewhite;
     text-align: center;
     padding: 20px;
+    background-color: #a567a1;
+    border-radius: 20px;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -74,7 +82,7 @@ table a {
 }
 
 table{
-    padding: 20px;
+    padding: 10px;
 }
 
 img {
