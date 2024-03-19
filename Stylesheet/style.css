@@ -1,9 +1,9 @@
 body {
     background-image: linear-gradient(#2c3247,#764e82);
     background-repeat: no-repeat;
-    background-size: auto;
     background-position:center;
     color:antiquewhite;
+    box-sizing: border-box;
 }
 
 h1 {
