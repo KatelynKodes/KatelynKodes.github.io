@@ -18,3 +18,26 @@ h2
     font-size: 30px;
     font-weight: 100;
 }
+
+img
+{
+    border: 2px dashed;
+    padding: 5px;
+}
+
+p
+{
+    color:#fff;
+}
+
+a
+{
+    color: #d338f2;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #d338f2;
+    color:yellow;
+}
