@@ -17,12 +17,14 @@ h2
 {
     font-size: 30px;
     font-weight: 100;
+    margin: 0px;
 }
 
 img
 {
     border: 2px dashed;
     padding: 5px;
+    margin: 5px;
 }
 
 p
