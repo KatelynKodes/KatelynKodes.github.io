@@ -61,12 +61,28 @@ title
     font-size: x-large;
 }
 
+button
+{
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover
+{
+    background-color: #5f0d0d;
+    border: 1px solid #fff;
+}
+
 a
 {
     color: #fff;
     opacity: 60%;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 a:hover
@@ -74,4 +90,9 @@ a:hover
     color: #fff;
     opacity: 100%;
     text-shadow: 2px 2px 8px #fff;
+}
+
+iframe
+{
+    border: none;
 }

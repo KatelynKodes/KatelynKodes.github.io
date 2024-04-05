@@ -11,6 +11,7 @@ h1
 {
     font-size: 60px;
     font-weight: 100;
+    margin: 10px;
 }
 
 h2
@@ -52,4 +53,18 @@ HighlightRed
 HighlightYellow
 {
     color: yellow;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
